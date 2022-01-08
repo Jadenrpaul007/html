@@ -13,6 +13,7 @@
     background-color: #3d3935;
     position: relative;
     border: 1px solid #000000;
+    z-index: 2;
   }
   
   .nav > .nav-header {
@@ -96,3 +97,14 @@
       overflow-y: auto;
     }
   }
+
+  .gfg {
+    margin: 3%;
+    position: relative;
+}
+
+.first-txt {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+}
