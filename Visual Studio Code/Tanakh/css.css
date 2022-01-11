@@ -107,3 +107,16 @@
     top: 17px;
     left: 20px;
 }
+
+hr {
+  margin: 0px 25px;
+  border: 1.5px solid #aa8258;
+}
+
+/* 
+New International Version (NIV)
+King James Version (KJV)
+New Living Translation (NLT)
+English Standard Version (ESV)
+New King James Version (NKJV)
+*/
