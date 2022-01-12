@@ -5,7 +5,7 @@
   body {
     margin: 0px;
     font-family:  sans-serif;
-    background-color: #f5f5dc;
+    background-color: #fff4db;
   }
   
   .nav {
@@ -127,7 +127,12 @@ hr {
 }
 
 .verseref {
-  
+  text-decoration: none;
+  color: black;
+}
+
+.verseref:hover {
+  text-decoration: underline;
 }
 
 /* 
