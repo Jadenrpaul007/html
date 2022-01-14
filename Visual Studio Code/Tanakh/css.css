@@ -11,7 +11,7 @@
   .nav {
     height: 50px;
     width: 100%;
-    background-color: #453e33;
+    background-color: #254049;
     position: relative;
     z-index: 2;
   }
@@ -22,9 +22,7 @@
   
   .nav > .nav-header > .nav-title {
     display: inline-block;
-    font-size: 22px;
-    color: #fff;
-    padding: 0px 10px 10px 0px;
+    padding: 0px 10px 10px 3px;
   }
   
   .nav > .nav-btn {
@@ -41,7 +39,7 @@
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: #ffd19f;
+    color: #45abc3;
   }
   
   .nav > .nav-links > a:hover {
@@ -52,7 +50,7 @@
     display: none;
   }
   
-  @media (max-width:700px) {
+  @media (max-width:890px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
@@ -72,13 +70,14 @@
       display: block;
       width: 25px;
       height: 10px;
-      border-top: 2px solid #ffd19f;
+      border-top: 2px solid #45abc3;
     }
     .nav > .nav-links {
+      text-align: center;
       position: absolute;
       display: block;
       width: 100%;
-      background-color: #453e33;
+      background-color: #254049;
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
@@ -98,10 +97,21 @@
     }
   }
 
+  @media (max-width:890px) {
+    .carousel {
+      margin: 3% 10%;
+      position: relative;
+      display: grid;
+    }
+
+    hr {
+      display: none;
+    }
+  }
+
   .carousel {
-    margin: 3% 10%;
-    position: relative;
-}
+    display: none;
+  } 
 
 .first-txt {
     position: absolute;
@@ -111,7 +121,7 @@
 
 hr {
   margin: 0px 25px -7px 25px;
-  border: 1.5px solid #aa8258;
+  border: 1px solid #007691;
 }
 
 .h4 {
