@@ -97,20 +97,10 @@
     }
   }
 
-  @media (max-width:890px) {
-    .carousel {
-      margin: 3% 10%;
-      position: relative;
-      display: grid;
-    }
-
-    hr {
-      display: none;
-    }
-  }
-
   .carousel {
-    display: none;
+    margin: 3% 10%;
+    position: relative;
+    display: grid;
   } 
 
 .first-txt {
@@ -132,6 +122,7 @@ hr {
 .versecard {
   border: 0.1px solid black;
   margin: 0px 10px;
+  background-color: #009dff25;
   padding: 10px;
   box-shadow: 5px 5px 18px #c0c0c0;
 }
